@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+
+}
+nav{
+    display: flex;
+    justify-content: end;
+    height: 2px;
+    position: sticky;
+    top: 3px;
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    color: rgb(0, 255, 251);
+    justify-content: space-evenly;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: large;
+    
+}
+
+li{
+    width: 75px;
+    padding: 10px;
+    margin: 8px;
+    text-align: center;
+    
+}
+a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+   
+}
+
+.overlay{
+    position: absolute;
+    top: 10%;
+    left: 9%;
+    
+}
+.overlay9{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 2px 2px rgb(0, 4, 252);
+    font-size: 50px;
+}
+
+h1{
+    text-shadow: 6px 3pc 4px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+}
+.xyz h2{
+    color: rgba(0, 251, 255, 0.189);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 160px;
+    position: absolute;
+    top: 110%;
+    left: 5%;
+}
+
+
+
+
+#homes{
+    display: flex;
+    flex-direction: column;
+}
+#homes::before{
+    content: "";
+    background-image: url(https://img5.thuthuatphanmem.vn/uploads/2021/12/28/black-background-3d_015108398.jpg) ;
+    height: 200px;
+    background-position: top;
+    background-size: cover;
+}
+.main{
+    
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 250px;
+    left: 70%;
+}
+
+#x{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 4px 5pc 4pc rgb(0, 0, 0);
+}
+
+#abouts{
+    padding-top: 5px;
+
+}
+.pic{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-atmospheric-black-texture-background-image_262264.jpg) ;
+    height: 525px;
+    display: flex;
+}
+
+.pic img{
+   
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 35px;
+    box-shadow: 2px 3px 2pc white;
+    margin-top: 95px;
+}
+
+.pic h4{
+    text-align: center;
+    font-size: 100px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px rgb(80, 81, 81);
+    
+}
+.pic p{
+    text-align: justify;
+    margin: 30px;
+    color: rgb(253, 253, 253);
+}
+
+#project{
+    background-image: url(https://img5.thuthuatphanmem.vn/uploads/2021/12/28/black-background-3d_015108398.jpg) ;
+    height: 200px;
+    margin-top: 5px;
+}
+
+.xy h2{
+    color: rgba(0, 251, 255, 0.189);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 160px;
+    position: absolute;
+    top: 209%;
+    left: 5%;
+}
+
+#projects{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-atmospheric-black-texture-background-image_262264.jpg) ;
+    height: 825px;
+    margin-top: 5px;
+    
+}
+.row{
+    display: flex;
+    
+}
+
+.aa{
+    width: 500px;
+    height: 600px;
+    border: 2px ridge black;
+    margin: 20px;
+    margin-top: 50px;
+    
+}
+
+.aa:hover{
+    
+    border: none;
+    box-shadow: 3px 5px 6px rgb(109, 85, 186);
+
+}
+
+.aa img{
+    width: 100%;
+    background-color: aliceblue;
+    
+}
+
+
+
+.aa p{
+    text-align: justify;
+    margin: 20px; color: aliceblue;
+}
+
+.cv{
+    background-color: black;
+    padding: 10px;
+    color: azure;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 400px;
+}
+.cv:hover{
+    color: blue;
+}
+
+#gallery{
+    background-image: url(https://img5.thuthuatphanmem.vn/uploads/2021/12/28/black-background-3d_015108398.jpg) ;
+    height: 200px;
+    margin-top: 5px;
+}
+
+
+.yx h2{
+    color: rgba(0, 251, 255, 0.189);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 160px;
+    position: absolute;
+    top: 348%;
+    left: 5%;
+}
+
+#gallerys{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-atmospheric-black-texture-background-image_262264.jpg) ;
+    height: 555px;
+    margin-top: 5px;
+    
+}
+.gallery{
+    justify-content: space-between;
+    margin-left: 200px;
+    padding-top: 35px;
+
+}
+.gallery img{
+    width: 300px;
+    height: 200px;margin-top: 100px;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+footer,#a{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;
+    color: rgb(250, 250, 255);
+    text-align: center;   
+
+}
+
+
+
+
+
